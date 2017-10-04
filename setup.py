@@ -13,7 +13,7 @@ setup(
     author_email="contact@arbalet-project.org",
     long_description=open('README.md').read(),
 
-    install_requires= ["zmq", "numpy", "flask", "flask_cors", "petname"],
+    install_requires= ["numpy", "flask", "flask_cors", "petname"],
     include_package_data=True,
     zip_safe=False,  # contains data files
 
